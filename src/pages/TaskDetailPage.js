@@ -17,7 +17,7 @@ class TaskDetailPage extends Component {
 		console.log(match);
 		if(match) {
 			var id = parseInt(match.params.id);
-			callApi(`tasks/${id}`, 'GET', null).then((res) => {
+			callApi(`tasks_todo_list_01/${id}`, 'GET', null).then((res) => {
 				this.setState({
 					id: res.data.id,
 					name: res.data.name,

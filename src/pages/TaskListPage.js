@@ -120,7 +120,7 @@ class TaskListPage extends Component {
 TaskListPage.propTypes = {
 	tasks: PropTypes.arrayOf(
 		PropTypes.shape({
-			id: PropTypes.number.isRequired,
+			// id: PropTypes.number.isRequired,
 			name: PropTypes.string.isRequired,
 			status: PropTypes.bool.isRequired
 		})
